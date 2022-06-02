@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/misprimerosestilos.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+    <style>
+        .button-new{
+            color: rgb(224, 209, 209);
+            background-color: rgb(87, 110, 60);
+            border: none;
+        }
+        h1{
+            color: rgb(84, 95, 196);
+            
+        }
+    </style>
     <title>Nuevo Estudiante</title>
 </head>
 <body>
 
     <form action="">
+        <h1>Estilo por elemento</h1>
+        <p>Texto de prueba link referenciado</p>
         <table>
             <tr>
                 <td><label for="idNombre">Nombre</label></td>
@@ -40,9 +55,14 @@
         <table>
             <tr>
                 <td><button>Guardar</button></td>
+                <!--CSS en linea-->
+                <td><button style="color: aliceblue; background-color: rgb(25, 187, 93); border: none;">Guardar estilo linea</button></td>
+                <td><button class="button-extern">Guardar estilo externo</button></td>
+                <td><button class="button-new">Guardar estilo interno</button></td>
+                <td><button id="idButtonNew2022">Guardar estilo externo id</button></td>
                 <td><input type="file"></td>
                 <td><button>Actualizar</button></td>
-                <td><button>Eliminar</button></td>
+                <td><button class="button-new">Eliminar</button></td>
             </tr>
         </table>
     </form>
