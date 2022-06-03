@@ -9,3 +9,70 @@
     background-color: burlywood;
     border: none;
 }
+
+a[href] {
+    color: blueviolet;
+    background-color: yellowgreen;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+#borde1{
+    border-style: dotted;
+    visibility: hidden;
+}
+
+#borde2{
+    border-style: dashed;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#borde3{
+    border-style: solid;
+}
+
+#borde4{
+    border-style: double;
+}
+
+#borde5{
+    border-style: groove;
+}
+
+#borde6{
+    padding: 15% 15%;
+    background-color: wheat;
+}
+
+.borde7{
+    border-style: solid;
+    padding: 70px 60px 50px 40px;
+    height: 500px;
+    width: 320px;
+
+}
+
+.borde8{
+    border-style: solid;
+    height: 550px;
+    width: 850px;
+}
+
+#borde9{
+    border-style: none;
+    margin: 100px 50px;
+}
+
+#borde10{
+    border-style: hidden;
+    margin: 100px 50px 20px 70px;
+}
+
+#borde11{
+    border-style: dotted dashed groove ridge;
+    
+}
