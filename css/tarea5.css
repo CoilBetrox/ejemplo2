@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+.titulo {
+    font-style: italic;
+}
+
+#idTitulo {
+    text-decoration: underline;
+}
+
+a[href]{
+    background-color: rgb(66, 71, 40);
+    color: aliceblue;
+    padding: 1%;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+.imagenG {
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.parraf {
+    margin: 5% 20%;
+    text-align: justify;
+    border: 2px solid #2e7230;
+    padding: 1% 1%;
+}
+
+#idPar {
+    border-radius: 15px 50px 30px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
