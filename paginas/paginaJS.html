@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/misprimerosestilos.css">
+    <title>Pagina JS</title>
+    <script>
+        function cambiarClase(){
+            console.log('Impresion de log')
+            var valorActualClase = document.getElementById("idParrafo").className;
+            console.log(valorActualClase)
+            if (valorActualClase == "viejo"){
+                console.log('V')
+                valorActualClase = "nuevo"
+            }else{
+                console.log('F')
+                valorActualClase = "viejo"
+            }
+            document.getElementById("idParrafo").className = valorActualClase;
+        }
+
+        function cambiarEstilo(){
+            document.getElementById("idMensaje").style.color = 'red';
+            
+        }
+    </script>
+    <script src="../js/misprimerosscripts.js"></script>
+
+</head>
+<body>
+    
+    <p id="idMensaje">Nuestra primera clase de JavaScript</p>
+    <h1 id="idParrafo" class="viejo">Pertenece a la clase</h1>
+    <button type="button" onclick='document.getElementById("idMensaje").innerHTML="El texto se cambio"'>Cambiar Mensaje</button>
+    <button type="button" onclick='document.getElementById("idParrafo").className="nuevo"'>Cambiar Clase</button>
+    <button type="button" onclick='document.getElementById("idParrafo").className="viejo"'>Cambiar Clase vieja</button>
+    <button type="button" onclick='cambiarClase()'>Smart</button>
+    <button type="button" onclick='cambiarEstilo()'>Cambia color</button>
+    
+    
+    <img id="idImagen" src="../img/cat.jpg" alt="imagen de gato" width="75%" height="75%">
+    <button type="button" onclick='ocultarMostrarImg()'>Ocultar / Mostrar</button>
+    
+</body>
+</html>

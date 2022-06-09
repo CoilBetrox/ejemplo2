@@ -76,3 +76,13 @@ a[href] {
     border-style: dotted dashed groove ridge;
     
 }
+
+.viejo{
+    color: blue;
+    background-color: yellowgreen;
+}
+
+.nuevo{
+    color: red;
+    background-color: darkcyan;
+}
