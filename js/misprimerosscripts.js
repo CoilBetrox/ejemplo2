@@ -20,3 +20,15 @@ function apaga(){
     console.log(valorSrc);
     document.getElementById('idImagenFoco').src='../img/encendido.png';
 }
+
+function enciendeApaga(){
+    var valActClass = document.getElementById('idImagenFoco').className;
+    if(valActClass == "focoEnc"){
+        document.getElementById('idImagenFoco').src='../img/apagado.png';
+        valActClass = "focoApag";
+    }else{
+        document.getElementById('idImagenFoco').src='../img/encendido.png';
+        valActClass = "focoEnc";
+    }
+    document.getElementById("idImagenFoco").className = valActClass;
+}

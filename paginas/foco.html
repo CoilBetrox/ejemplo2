@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/misprimerosestilos.css">
     <title>Foco</title>
     <script src="../js/misprimerosscripts.js"></script>
 </head>
 <body>
-
-    <h2>Enciende o apaga la luz</h2>
-    <img id="idImagenFoco" src="../img/apagado.png" alt="no se carga la img">
-    
-    <button type="button" onclick='enciende()'>Encender / Apagar</button>
-    <button type="button" onclick='apaga()'>Encender / Apagar</button>
+    <div class="eleme">
+        <h2>Enciende o apaga la luz</h2>
+        <img class="focoEnc" id="idImagenFoco" src="../img/encendido.png" alt="no se carga la img">
+        <br>
+        <button type="button" onclick='enciende()'>Apagar</button>
+        <button type="button" onclick='apaga()'>Encender</button>
+        <button type="button" onclick='enciendeApaga()'>Encender / Apagar</button>
+    </div>
     
 </body>
 </html>

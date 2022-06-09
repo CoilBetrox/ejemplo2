@@ -86,3 +86,7 @@ a[href] {
     color: red;
     background-color: darkcyan;
 }
+
+.eleme{
+    text-align: center;
+}
