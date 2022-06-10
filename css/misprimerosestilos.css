@@ -90,3 +90,9 @@ a[href] {
 .eleme{
     text-align: center;
 }
+
+.divC{
+    background-color: brown;
+    width: 30%;
+    height: 15%;
+}

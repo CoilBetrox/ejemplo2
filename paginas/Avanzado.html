@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/misprimerosestilos.css">
+    <script src="../js/misprimerosscripts.js"></script>
+    <title>Avanzado JS</title>
+</head>
+<body>
+    <h1 class="nuevo">Primer texto</h1>
+    <h2 class="nuevo">Segundo texto</h2>
+    <h3 class="nuevo">Tercer texto</h3>
+    <h1 class="nuevo">Nuevo texto</h1>
+    <button onclick='cambiaTextos()'>Cambia texto</button>
+    <button onclick='cambiaTextosElemento()'>Cambia texto por elemento</button>
+    <button onmo='cambiaTextos()'>Cambia texto</button>
+
+    <div id="div1" onmouseover='mOver()' onmouseout='mOut()' class="divC">
+        <p>Texto para nuevos eventos</p>
+    </div>
+    <br>
+    <div id="div1" onmouseover='mOver(this)' onmouseout='mOut(this)' class="divC">
+        <p>Texto para nuevos eventos2</p>
+    </div>
+    <br>
+    <div id="div1" onmousedown='mOver(this)' onmouseout='mOut(this)' class="divC">
+        <p>Texto para nuevos eventos2</p>
+    </div>
+    <br>
+    <button onclick='imprimirPersona()'>Imprimir</button>
+
+</body>
+</html>
