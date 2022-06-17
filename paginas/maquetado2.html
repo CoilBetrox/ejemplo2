@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/maquetacion2.css">
+    <title>Maquetado2</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de registro</h1>
+    </header>
+
+    <form action="">
+        <fieldset>
+            <h4>Nombres y apellidos</h4>
+            <div class="nmbr">
+                
+                <input type="text" name="" id="idNombre">
+                <label for="idNombre">Nombre</label>
+                
+                <input type="text" name="" id="idPriApe">
+                <label for="idPriApe">Primer Apellido</label>
+                
+                <input type="text" name="" id="idSecApe">
+                <label for="idSecApe">Segundo Apellido</label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <h4>Direccion</h4>
+            <div>
+                <div class="nmbr">
+                    <input type="text" name="" id="idCalle">
+                    <label for="idCalle">Calle, número, piso, puerta</label>
+                </div>
+                <div class="tele">  
+                    <div>
+                        <div>
+                            <input type="text" name="" id="idPost">
+                            <label for="idPost">Codigo Postal</label>
+                        </div>
+
+                        <div>
+                            <select name="provincia" id="idProv" class="prov">
+                                <option value="E">Esmeraldas</option>
+                                <option value="S">Sto Domingo</option>
+                                <option value="P">Pichincha</option>
+                            </select>
+                            <label for="idProv">Provincia</label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <input type="text" name="" id="idMuni">
+                            <label for="idMuni">Municipio</label>
+                        </div>
+                        <div>
+                            <select name="pais" id="idPais" class="pais">
+                                <option value="E">Ecuador</option>
+                                <option value="P">Peru</option>
+                                <option value="A">Argentina</option>
+                            </select>
+                            <label for="idPais">País</label>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h4>Email</h4>
+            <div class="nmbr">
+                <input type="email" name="" id="idEmail">
+                <label for="idEmail">email</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h4>Teléfono</h4>
+            <div class="tele">
+                <span>
+                    <input type="text" name="" id="idFij">
+                    <label for="idFij" class="unaLinea">Fijo</label>
+                </span>
+
+                <span>
+                    <input type="text" name="" id="idMov">
+                    <label for="idMov" class="unaLinea">Móvil</label>
+                </span>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div class="btn">
+                <button>Registrarse</button>
+            </div>
+        </fieldset>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+input, .prov, .pais {
+    display: block;
+    border: transparent;
+    border-bottom: 0.2em solid black;
+}
+
+input:focus {
+    background-color: cornflowerblue;
+}
+
+.nmbr {
+    margin-left: 23.5%;
+}
+
+.tele {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: right;
+}
+
+.unaLinea {
+    display: inline;
+}
