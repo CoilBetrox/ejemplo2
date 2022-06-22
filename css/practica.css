@@ -1,0 +1,59 @@
+input, .prov, .pais {
+    display: block;
+    border: transparent;
+    border-bottom: 0.15em solid black;
+}
+
+h3 {
+    margin: 0;
+}
+
+button {
+    background-color: tomato;
+}
+
+.butt{
+    display: grid;
+    justify-items: right;
+}
+
+fieldset {
+    margin-bottom: 1em;
+}
+
+input:hover{
+    background-color: rgb(162, 207, 162);
+}
+
+.nameApe {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.itemsName{
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.direct{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.itemsDir1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.itemsDir2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+

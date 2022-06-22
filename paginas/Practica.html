@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/practica.css">
+    <title>Practica</title>
+    <script src="../js/practica.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Registro</h1>
+    </header>
+
+    <form action="">
+        <fieldset class="nameApe">
+            <div class="titleNam">
+                <h3>Nombres y apellidos</h3>
+            </div>
+            <div class="itemsName">
+                <input type="text" name="" id="idNombre">
+                <label for="idNombre">Nombre</label>
+                
+                <input type="text" name="" id="idPriApe">
+                <label for="idPriApe">Primer Apellido</label>
+
+                <input type="text" name="" id="idSecApe">
+                <label for="idSecApe">Segundo Apellido</label>
+            </div>
+        </fieldset>
+
+        <fieldset class="direct">
+
+            <div class="titleDir">
+                <h3>Direccion</h3>
+            </div>
+
+            <div class="itemsDir1">
+                <input type="text" name="" id="idCalle">
+                <label for="idCalle">Calle, número, piso, puerta</label>
+
+                <input type="text" name="" id="idPost">
+                <label for="idPost">Codigo Postal</label>
+
+                <select name="provincia" id="idProv" class="prov">
+                    <option value="E">Esmeraldas</option>
+                    <option value="S">Sto Domingo</option>
+                    <option value="P">Pichincha</option>
+                </select>
+                <label for="idProv">Provincia</label>
+            </div>
+
+            <div class="itemsDir2">
+                <input type="text" name="" id="idMuni">
+                <label for="idMuni">Municipio</label>
+
+                <select name="pais" id="idPais" class="pais">
+                    <option value="E">Ecuador</option>
+                    <option value="P">Peru</option>
+                    <option value="A">Argentina</option>
+                </select>
+                <label for="idPais">País</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <p id="idSaludo">Mensaje</p>
+        </div>
+
+        <div class="butt">
+            <button type="button" onclick='saludo()'>Aceptar</button>
+        </div>
+
+        
+    </form>
+
+    
+</body>
+</html>
